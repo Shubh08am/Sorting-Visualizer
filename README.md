@@ -11,6 +11,6 @@ This application supports the following sorting algorithms:
 
 Host Link :-
 
-old :- https://i-sorting-visualizer.netlify.app/
+**old link** :- https://i-sorting-visualizer.netlify.app/
 
-new :- https://e-sorting-visualizer.netlify.app/
+**new link** :- https://e-sorting-visualizer.netlify.app/
