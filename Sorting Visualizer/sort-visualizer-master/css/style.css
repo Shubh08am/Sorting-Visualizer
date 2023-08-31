@@ -18,6 +18,7 @@ body {
   justify-content: space-between;
   flex-direction: column;
   align-items: stretch;
+  background-color: #E3E6F3;
 }
 
 /* Title CSS */
@@ -40,7 +41,9 @@ body {
   font-size: 16px;
   min-height: 70px;
   padding-block: 0.6em;
-  background-color: var(--secondary-color);
+  /*background-color: var(--secondary-color);*/
+    background-color: #66CDAA;
+
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .navbar a {
@@ -51,18 +54,20 @@ body {
   padding: 8px 10px;
   border-radius: 6px;
   transition: 0.3s;
-  background-color: #1abc9c;
+  /*background-color: #1abc9c;*/
+  background-color:#052921;
 }
 .navbar a:hover {
-  background-color: transparent;
-}
+  background-color: brown;
+  transition: ease 0.3s;
+ }
 .navbar #menu {
   width: fit-content;
   outline: none;
   border: none;
   border-radius: 4px;
   padding: 6px 8px;
-  background-color: #1abc9c;
+  background-color: #052921;
   color: white;
 }
 .navbar > .icon {
@@ -102,8 +107,8 @@ body {
   transition: all 0.4s ease-in;
 }
 .cell.done {
-  background-color: #9cec5b;
-  border-color: #9cec5b;
+  background-color: #87CEFA;
+  border-color: black;
   color: white;
   transition: all 0.4s ease-out;
 }
@@ -114,7 +119,7 @@ body {
   transition: 0.5s;
 }
 .cell.current {
-  border-color: #50c5b7;
+  border-color: #112422;
   background-color: #50c5b7;
   color: white;
   transition: all 0.4s ease-out;
@@ -134,6 +139,7 @@ footer {
   text-align: center;
   font-size: 18px;
   color: #2c3e50;
+  background-color: #1abc9c;
   padding: 1.6em;
 }
 .footer > p:nth-child(1) {
@@ -145,7 +151,10 @@ footer {
   color: black;
   font-size: 20px;
 }
-
+/*
+.link :hover {
+  color: blue;
+ }*/
 @media screen and (max-width: 600px) {
   .navbar {
     gap: 0.4em;
