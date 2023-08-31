@@ -10,6 +10,7 @@ This application supports the following sorting algorithms:
 5. **Quick Sort**.
 
 Host Link :-
+
 old :- https://i-sorting-visualizer.netlify.app/
 
 new :- https://e-sorting-visualizer.netlify.app/
